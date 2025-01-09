@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+body{
+    background-image: linear-gradient(to right, rgb(36, 2, 36), black);
+    color: #ffffff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main{
+    padding: 30px;
+}
+
+h1{
+    text-align: justify;
+    font-family:Major Mono Display ;
+}
+
+strong{
+    color: #22D4FD;
+}
+
+img{
+    margin: 2%;
+    text-align: center;
+}
+
+a{
+    background-color: #420344;
+    border-radius: 5px;
+    padding: 15px;
+    color: #22D4FD;
+}
+
+div{
+    text-align: left;
+}
+
+footer > p{
+    padding-top: 5%;
+    margin: 1.5%;
+}
+
+p {
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }p{
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
