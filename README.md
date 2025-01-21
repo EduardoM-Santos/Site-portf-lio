@@ -1,1 +1,1 @@
-Apenas meu projetinho de portfolio que vou atrualizando conforme meu curso na Alura está em andamento
+Demonstrando meu conhecimento com Front-End e atualizando meus projetos dentro de um site
