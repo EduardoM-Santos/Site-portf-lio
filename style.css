@@ -127,6 +127,7 @@ body{
   font-size: var(--h1-font);
   font-weight: bolder;
   margin: 2rem;
+  color: var(--cor-terciaria);
 }
 
 .mid__text__pic{
