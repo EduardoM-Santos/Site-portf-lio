@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
@@ -25,6 +24,7 @@ body{
   flex-direction: column;
   text-align: center;
   color: var(--cor-primaria);
+  background-repeat: no-repeat;
 }
 
 .cabecalho{
@@ -59,14 +59,14 @@ body{
   border-radius: 2rem;
 }
 
-.mid__text__about{
+.mid__text__about, .about__me_project{
   border: 0.1rem solid var(--cor-primaria);
   padding: 2rem;
   text-decoration: none;
   text-align: center;
   display: flex;
   justify-content: flex-start;
-  margin: 3rem;
+  margin: 0 20rem 5rem;
 }
 
 .mid__text__principal{
@@ -121,7 +121,7 @@ body{
 }
 
 .mid__flex{
-  padding: 10px;
+  padding: 1rem;
 }
 
 .mid__text__list{
@@ -149,7 +149,21 @@ body{
   font-weight: bold;
 }
 
-@media (max-width:590px){
+.about__me_project{
+  display: flex;
+  flex-direction: column;
+}
+
+.projects__about{
+  margin: auto;
+}
+
+.footer{
+  border: var(--cor-secundaria) Solid 0.5rem;
+  color: var(--cor-terciaria);
+}
+
+@media (max-width:1108px){
 
 
   .cabecalho__button{
@@ -158,11 +172,12 @@ body{
   }
 
   .mid__text__about{
-    border: 0.1rem solid var(--cor-primaria);
+    border: 0.1rem solid var(--cor-primaria) ;
     text-decoration: none;
     text-align: center;
     display: block;
     justify-content: flex-end;
+    margin: auto;
   }
 
   .about__paragrafo{
@@ -177,6 +192,15 @@ body{
   height: 8rem;
   border-radius: 2rem;
   border: 0.6rem double var(--cor-secundaria);
+  }
+
+  .mid{
+    margin: 1rem;
+  }
+
+  .about__me_project{
+    margin: auto;
+    
   }
 
   }
