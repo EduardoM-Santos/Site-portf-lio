@@ -24,7 +24,6 @@ body{
   flex-direction: column;
   text-align: center;
   color: var(--cor-primaria);
-  background-repeat: no-repeat;
 }
 
 .cabecalho{
