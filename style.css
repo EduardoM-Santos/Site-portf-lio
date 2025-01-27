@@ -17,7 +17,7 @@
 }
 
 body{
-  background-image: linear-gradient(gray black);
+  background-image: linear-gradient(rgb(24, 24, 24), black);
   height: 100vh;
   gap: 1rem;
   display: flex;
