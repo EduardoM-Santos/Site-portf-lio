@@ -50,6 +50,7 @@ body{
 .cabecalho__button:hover{
   background-color: var(--cor-primaria);
 }
+
 .mid__text{
   display: flex;
   flex-direction: column;
@@ -165,7 +166,7 @@ body{
   color: var(--cor-terciaria);
 }
 
-@media (max-width:1365px){
+@media (max-width:1108px){
 
 
   .cabecalho__button{
@@ -204,5 +205,18 @@ body{
     margin: auto;
     
   }
+
+  }
+  @media (max-width:480px){
+
+    .mid__text__principal{
+      text-align: center;
+      margin: 8% 32% 7% -20%;
+    }
+  
+    .mid__text{
+      margin: -4% 2px -4%;
+    }
+
 
   }
