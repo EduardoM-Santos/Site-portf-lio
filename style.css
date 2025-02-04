@@ -167,8 +167,8 @@ body{
 }
 
 .redirecionamento{
-  text-decoration: none;
   color: var(--cor-primaria);
+  text-decoration: underline;
 }
 
 @media (max-width:1108px){
