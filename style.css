@@ -168,6 +168,7 @@ body{
 
 .redirecionamento{
   text-decoration: none;
+  color: var(--cor-primaria);
 }
 
 @media (max-width:1108px){
