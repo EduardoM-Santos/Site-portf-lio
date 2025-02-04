@@ -166,6 +166,10 @@ body{
   color: var(--cor-terciaria);
 }
 
+.redirecionamento{
+  text-decoration: none;
+}
+
 @media (max-width:1108px){
 
 
@@ -190,11 +194,11 @@ body{
 
   .mid__text__pic{
     display: flex;
- justify-content: flex-start;
-  width: 8rem;
-  height: 8rem;
-  border-radius: 2rem;
-  border: 0.6rem double var(--cor-secundaria);
+   justify-content: flex-start;
+   width: 8rem;
+   height: 8rem;
+   border-radius: 2rem;
+    border: 0.6rem double var(--cor-secundaria);
   }
 
   .mid{

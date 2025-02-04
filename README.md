@@ -1,1 +1,1 @@
-Meu portfolio recebeu agora suporte para adicionar meus projetos ja feitos.
+Um site completo contendo um pouco de minha história e meus projetos ja trabalhados e atualizados cada vez mais onde fica toda sua trajetória postada aqui.
