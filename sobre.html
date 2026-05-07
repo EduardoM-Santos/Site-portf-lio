@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sobre Eduardo Menezes dos Santos - Perfil profissional"
+    />
+    <title>Sobre Mim | Portfólio de Dudu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWix+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkR4j8wQmM3L6N4f0vN2R8jYx04Iu6Q7HfWA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header glass">
+      <nav class="navbar container">
+        <a class="brand" href="index.html">Portfólio de Dudu</a>
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Abrir menu de navegação"
+          aria-expanded="false"
+          aria-controls="navMenu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#resumo">Sobre Mim</a></li>
+          <li><a href="#timeline">Timeline</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section container about-intro reveal" id="resumo">
+        <div class="avatar-wrap">
+          <img
+            src="assets/edu.png"
+            alt="Foto de Eduardo Menezes dos Santos"
+          />
+        </div>
+        <div class="about-text">
+          <h1>Eduardo Menezes dos Santos</h1>
+          <p>
+            Tenho 21 anos, sou de Nova Crixás-GO e estou em formação em Análise
+            e Desenvolvimento de Sistemas, com cursos de desenvolvimento web
+            pela Alura.
+          </p>
+          <p>
+            Meus conhecimentos incluem HTML5, CSS3, JavaScript, Git e GitHub,
+            Banco de Dados, além de hardware e manutenção de computadores.
+          </p>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="timeline">
+        <div class="section-heading">
+          <h2>Timeline Profissional</h2>
+          <p>Minha trajetória e foco de evolução contínua.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <h3>Paixão por tecnologia</h3>
+              <p>
+                Interesse por computadores e internet desde cedo, explorando
+                ferramentas e aprendendo de forma autodidata.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <h3>Montagem e manutenção de PCs</h3>
+              <p>
+                Experiência prática com hardware, diagnóstico de problemas,
+                upgrades e otimização de desempenho.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <h3>Projetos pessoais Front-end</h3>
+              <p>
+                Desenvolvimento de interfaces responsivas com HTML5, CSS3 e
+                JavaScript para consolidar fundamentos.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <h3>Aprendizado contínuo</h3>
+              <p>
+                Formação acadêmica em ADS e estudos frequentes para crescer como
+                desenvolvedor Front-end Jr.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="skills">
+        <div class="section-heading">
+          <h2>Habilidades</h2>
+          <p>Competências técnicas e evolução prática.</p>
+        </div>
+        <div class="skill-cards">
+          <article class="skill-card">
+            <h3>HTML5</h3>
+            <div class="skill-bar">
+              <span data-width="88%"></span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <h3>CSS3</h3>
+            <div class="skill-bar">
+              <span data-width="82%"></span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <h3>JavaScript</h3>
+            <div class="skill-bar">
+              <span data-width="72%"></span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <h3>Git e GitHub</h3>
+            <div class="skill-bar">
+              <span data-width="70%"></span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <h3>Banco de Dados</h3>
+            <div class="skill-bar">
+              <span data-width="62%"></span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <h3>Hardware e manutenção</h3>
+            <div class="skill-bar">
+              <span data-width="85%"></span>
+            </div>
+          </article>
+        </div>
+        <a href="index.html" class="btn-neon back-home">Voltar para Home</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Eduardo Menezes dos Santos - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
